@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>web-app</display-name>
+  <servlet>
+    <description></description>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>com.ibm.web.HelloWeb</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/hello.sj</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet3</display-name>
+    <servlet-name>LoginServlet3</servlet-name>
+    <servlet-class>com.ibm.web.LoginServlet3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet3</servlet-name>
+    <url-pattern>/doLogin</url-pattern>
+  </servlet-mapping>
+</web-app>
